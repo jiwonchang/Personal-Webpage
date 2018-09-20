@@ -1,0 +1,61 @@
+.navbar-inverse {
+	background-color: #091b38;
+	border-color: #081730;
+}
+
+#profile-pic {
+	/*width: 300px;
+	height: 380px;*/
+	width: 350px;
+	height: 443px;
+	/*border-radius: 30%;*/
+	border-radius: 20%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.thumbnail {
+	/*background-color: #7982b2;
+	border-color: #7079a5;*/
+	background-color: #99a1c9;
+	border-color: #8f97bc;
+}
+
+body {
+	padding-top: 70px;
+	/*background: #9ca5d1;*/
+	background: #b2bbea;
+}
+
+#intro {
+	/*font-size: 70px;*/
+	font-size: 100px;
+	text-align: center;
+}
+
+#sub-intro {
+	text-align: center;
+}
+
+.description {
+	padding-top: 20px;
+	font-size: 20px;
+}
+
+#music {
+	padding-top: 20px;
+	text-align: center;
+	font-size: 18px;
+}
+
+/*.navbar-inverse .navbar-nav > li > a {
+	color: white;
+}
+
+.navbar-inverse .navbar-brand {
+	color: white;
+}
+
+.navbar-inverse .navbar-brand {
+
+}*/

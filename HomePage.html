@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Henry's Webpage</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="homePage.css">
+</head>
+<body>
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+			<!-- This is how we make a navbar header, in this case for a brand image -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-nav-demo" aria-expanded="false">
+				  <span class="sr-only">Toggle navigation</span>
+				  <span class="icon-bar"></span>
+				  <span class="icon-bar"></span>
+				  <span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="HomePage.html"><i class="far fa-gem"></i> Henry</a>
+			</div>
+
+			<div class="collapse navbar-collapse" id="bs-nav-demo">
+				<!-- Makes a new group of content/links on the left side of the nav bar -->
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="#">Home</a></li>
+					<li><a href="AboutMe.html">About</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+
+				<!-- Makes a new group of content/links on the right side of the nav bar -->
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#">Resume <i class="fas fa-user-plus"></i></a></li>
+					<li><a href="#">Portfolio <i class="fas fa-user"></i></a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div class="container content">
+		<div class="row">
+			<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+				<img class="thumbnail" id="profile-pic" src="images/smiling-tuxedo1.PNG">
+			</div>
+			<div class="col-lg-8 col-md-8 col-sm-6 col-xs-12">
+				<h1 id="intro">Henry Chang</h1>
+
+				<h2 id="sub-intro">Aspiring Software Engineer, Dreamer, Artist</h2>
+
+				<!-- I SHOULD DELETE THIS LATER (MUSIC IS NOT NECESSARY) -->
+				<p class="description">
+					Hey! Before you read on, click the play button to listen to some relaxing music!
+
+					<p id="music">
+						<label for="relaxing_music">Bach Minuet in G major BWV Anh 114 Piano</label>
+						<br/>
+						<audio id="relaxing_music" controls src="music/Bach Minuet in G major BWV Anh 114 Piano.mp3"></audio>
+					</p>
+				</p>
+
+				<p class="description" class="quote">
+					<em>"All the world’s a stage, And all the men and women merely players; They have their exits and their entrances; And one man in his time plays many parts." - Shakespeare</em>
+				</p>
+
+				<!-- <p class="description">
+					Hi there! I'm an aspiring software engineer who is currently studying the in's-and-out's of web development. I've always had a bit of an artistic inclination ever since I was a wee lad, and always wanted to nurture and grow that aspect of myself. Well, my love of art and coding has apparently had some fun and produced a love child in the form of the perfect opportunity known to the world as web development.
+				</p> -->
+
+				<!-- <p class="description">
+					I'm also a hobbyist game developer! I recently used my knowledge of Python to make a Galaga clone game (which I named "Infinitum", because Latin is awesome) with Pygame! Besides that, I've dabbled with Unity to create some very basic platformers and puzzle games.
+				</p> -->
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+				<p class="description">
+					Hi there! I'm a UC Berkeley grad aspiring to become a software engineer. I majored in Statistics while in UCSB and then in Applied Mathematics when I transferred to UC Berkeley, but the few Computer Science courses I took as prerequisites peaked my interest in the world of programming. Such interests led me to delve even further and to take the core CS classes such as those in Data Structures and Algorithms. I've had the pleasure of working on numerous amazing course projects such as the Enigma Machine Project, in which I reproduced the Enigma machine that served a key role in WWII (except my enigma machine was fully virtual, with the moving pieces of the actual enigma machine implemented in their full functionality as objects).
+				</p>
+
+				<p class="description">
+					I'm also eager to learn new skills and technologies that help individuals and companies create wonderful content and products. That's why I'm currently studying the in's-and-out's of web development. I've always had a bit of an artistic inclination ever since I was a wee lad, and always wanted to nurture and grow that aspect of myself. It would seem that I've found the perfect blend between my love of art and coding in the form of web development!
+				</p>
+
+				<p class="description">
+					I'm also a hobbyist game developer! I recently used my knowledge of Python to make a Galaga clone game (which I named "Infinitum", because Latin is awesome) with Pygame! Besides that, I've dabbled with Unity to create some very simple platformers and puzzle games.
+				</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- jQuery script, obtained from "https://code.jquery.com" -->
+	<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+
+	<!-- Bootstrap's Javascript file -->
+	<script type="text/javascript" src="bootstrap.js"></script>
+
+	<!-- Script for Font Awesome -->
+	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+
+	<script type="text/javascript" src="homePage.js"></script>
+</body>
+</html>
